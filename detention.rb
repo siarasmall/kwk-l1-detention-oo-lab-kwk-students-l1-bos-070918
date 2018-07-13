@@ -6,4 +6,8 @@ class Detention
     @activity = "collective punishment"
     @students = []
   end 
+  
+  def add_student
+    @students += @students
+  end 
 end 
