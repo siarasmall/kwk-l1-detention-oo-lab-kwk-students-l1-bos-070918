@@ -8,6 +8,6 @@ class Detention
   end 
   
   def add_student(name)
-    @students += @students
+    @students = @students + name
   end 
 end 
